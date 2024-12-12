@@ -31,8 +31,10 @@ __version__ = "0.1.0"
 from tempfile import TemporaryDirectory
 from pathlib import Path
 from os import listdir
+from functools import lru_cache
 
 
+@lru_cache
 def is_filesystem_case_sensitive():
     """
     Determine if the current file system is case-sensitive.
