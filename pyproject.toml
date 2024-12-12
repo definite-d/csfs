@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "csfs"
+version = "0.1.0"
+description = "A module to check if the host filesystem is case-sensitive with paths."
+authors = ["definite-d <38317208+definite-d@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
